@@ -2,11 +2,12 @@ version: "3.9"
 
 services:
   bento:
+    container_name: bento
     image: lewisdoesstuff/bento
     volumes:
-      # Append Bento config location to below line. Make sure to use a relative path or proper volume mount syntax for Windows.
-      - "C:/Users/isaac/Bento/config.js:/usr/share/nginx/html/config.js"
+      # Append Bento config location to below line.
+      - ./config.js:/usr/share/nginx/html/config.js
     ports:
-      # Map port 80 on the host to port 80 in the container. Change host port (left side) if needed.
-      - "80:80"
-    restart: unless-stopped
+      # Replace host port 80 (left side) with desired port.
+      - 80:80
+    restart: always
