@@ -297,8 +297,16 @@ body {
   grid-column: 3;
 }
 
+.button__6:hover {
+  background: white;
+}
+
 .button:hover svg {
   stroke: var(--sfg);
+}
+
+.button__4:hover svg {
+  stroke: lightgray !important;
 }
 
 .listsContainer {
