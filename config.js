@@ -54,32 +54,33 @@ const CONFIG = {
 		{
 			id: '1',
 			name: 'Netflix',
-			icon: 'tv',
+			icon: 'clapperboard',
 			link: 'https://www.netflix.com/',
 		},
 		{
 			id: '2',
 			name: 'Max',
-			icon: 'shield-plus',
-			link: 'https://play.max.com/',
-		},
-		{
-			id: '3',
-			name: 'Max',
 			icon: 'tv',
 			link: 'https://play.max.com/',
 		},
 		{
-			id: '4',
-			name: 'Netflix',
-			icon: 'soup',
-			link: 'https://www.netflix.com/es-en/',
-		},
-		{
-			id: '5',
+			id: '3',
 			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://www.youtube.com/',
+		},
+		{
+			id: '4',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
+		},
+		{
+			id: '5',
+			name: 'Prime',
+			icon: 'cctv',
+			link: 'https://www.primevideo.com/',
+
 		},
 		{
 			id: '6',
@@ -92,7 +93,7 @@ const CONFIG = {
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
+			name: 'Spotify',
 			icon: 'headphones',
 			link: 'https://open.spotify.com',
 		},
@@ -104,9 +105,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Eneba',
 			icon: 'bot',
-			link: 'https://discord.com/app',
+			link: 'https://www.eneba.com/',
 		},
 		{
 			id: '4',
@@ -135,30 +136,29 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'layers',
+			icon: 'skull',
 			id: '1',
 			links: [
 				{
-					name: 'Music',
+					name: 'Spotify',
 					link: 'https://open.spotify.com',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Twitter',
-					link: 'https://twitter.com/',
+					name: 'Eneba',
+					link: 'https://www.eneba.com',
 				},
 				{
 					name: 'Amazon',
 					link: 'https://amazon.es/',
 				},
 				{
-					name: 'Discord',
-					link: 'https://discord.com/app',
+					name: 'Reddit',
+					link: 'https://www.reddit.com/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'dna',
 			id: '2',
 			links: [
 				{

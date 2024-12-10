@@ -7,6 +7,8 @@ services:
     volumes:
       # Append Bento config location to below line.
       - ./config.js:/usr/share/nginx/html/config.js
+      # Append Bento css location to below line.
+      - ./app.css:/usr/share/nginx/html/app.css
     ports:
       # Replace host port 80 (left side) with desired port.
       - 80:80

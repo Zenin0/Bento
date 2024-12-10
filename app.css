@@ -23,7 +23,7 @@
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
   --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  /* --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -251,29 +251,52 @@ body {
   grid-row: 1;
   grid-column: 1;
 }
+
+.button__1:hover {
+  background-color: #E50914;
+}
+
 .button__2 {
   grid-row: 1;
   grid-column: 2;
 }
+
+.button__2:hover {
+  background: linear-gradient(45deg, #522D83, #9B47B2);
+}
+
 .button__3 {
   grid-row: 2;
   grid-column: 1;
 }
+
+.button__3:hover {
+  background-color: #FF0000;
+}
+
 .button__4 {
   grid-row: 2;
   grid-column: 2;
 }
+
+.button__4:hover {
+  background-color: #151B23;
+}
+
 .button__5 {
   grid-row: 1;
   grid-column: 3;
 }
+
+.button__5:hover {
+  background: linear-gradient(45deg, #00A8E8, #004F8C);
+}
+
 .button__6 {
   grid-row: 2;
   grid-column: 3;
 }
-.button:hover {
-  background-color: var(--accent);
-}
+
 .button:hover svg {
   stroke: var(--sfg);
 }
