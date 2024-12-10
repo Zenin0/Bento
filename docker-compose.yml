@@ -9,6 +9,8 @@ services:
       - ./config.js:/usr/share/nginx/html/config.js
       # Append Bento css location to below line.
       - ./app.css:/usr/share/nginx/html/app.css
+      # Append Bento index.html location to below line.
+      - ./index.html:/usr/share/nginx/html/index.html
     ports:
       # Replace host port 80 (left side) with desired port.
       - 80:80
